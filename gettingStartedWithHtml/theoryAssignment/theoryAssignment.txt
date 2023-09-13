@@ -1,0 +1,78 @@
+2.Explain the purpose of comments in HTML and provide an example of how to use comments in an HTML document .
+ 
+Ans - 
+
+ The comment tag is helpful while debugging  the codes.
+
+It is a simple piece of code that is ignored by web browsers meaning it is not displayed by the browser.
+
+It helps the coder and reader to understand the piece of code used, especially in complex source code.
+
+4. Write a short note on Tag and element with an example.
+
+Ans– HTML tags are the keywords on a web page that define how our web browser must format and display our web page. 
+
+Almost all tags contain two parts, an opening, and a closing tag. For example, <html> is the opening tag and </html> is the closing tag.
+
+Basic HTML Tags
+
+HTML Tag
+
+The <html> tag represents the root of an HTML document. The <html> tag is the container for all other HTML elements .
+
+Head Tag
+The head tag <head> contains all the elements describing the document. 
+
+Title Tag
+The title tag <title> specifies the HTML page title, which is shown in the browser’s title bar. 
+
+Body Tag
+The body tag <body> is where we insert our web page’s content. 
+
+Paragraph Tag
+A paragraph tag <p> is used to define a paragraph on a web page.
+
+Heading Tag 
+The HTML heading tag is used to define the heading of the HTML document. The <h1> tag defines the most important tag, and <h6> defines  the least.
+
+Formatting Tags
+
+Emphasis tag
+The HTML <em> tag is used to emphasize the particular text in a paragraph.
+
+Bold Tag
+The <b> tag is used to make the text bold.
+
+Italic Tag
+The <i> tag is used to make the text italic.
+
+Underline Tag
+The <u> tag is used to set the text underline.
+
+Link Tag
+The <a> tag links one page to another page. The href attribute is used to specify the URL of the page that the link goes to.
+
+List Tag
+The <li> tag is used if we want to enter the contents in the listed order. There are two types of lists.
+Ordered list <ol>
+Unordered list <ul>
+
+Image Tag
+The <img> tag  is used to embed an image in an HTML document. We need to specify the source of the image inside the tag.
+
+The Table Tag
+The <table> tag is used to create a table in the HTML document.
+The table row (<tr>) tag is used to make the rows in the table, and the table data (<td>) tag is used to enter the data in the table.
+
+5.What is the DOCTYPE Declaration in HTML?
+Ans -  
+The HTML doctype is used to instruct the browser that the following document is an HTML document.
+It is called as the document type declaration (DTD).
+Technically <!DOCTYPE > is not a tag/element, it is just an instruction to the browser about the document type. 
+It is a null element which does not contain the closing tag, and must not include any content within it.
+
+<!DOCTYPE html> represents HTML5.
+
+It is case insensitive, it can be written as <!Doctype HTML>, <!DOCTYPE html> etc. 
+It should be placed on the top of the HTML document.
+
