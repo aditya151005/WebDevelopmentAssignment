@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS has not been covered in the course yet but I have added this for the readability of the page -->
+    <style>
+        body {
+          font-family: cursive;
+          font-size: larger;
+        }
+        table,th,td{
+            border: 1px solid black;
+        }
+      </style>
+      <title>Core HTML Assignment - Question-08</title>
+</head>
+<body>
+    <table style="margin:20px;" cellpadding="6" cellspacing="6">
+        <caption style="text-align:left;font-size:40px"><b>Conference Schedule</b></caption>
+        <thead>
+            <tr>
+            <th>Time</th>
+            <th>Room1</th>
+            <th>Room2</th>
+            <th>Room3</th>
+            <th>Room4</th>
+            </tr> 
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="3">9:00 AM - 10:00 AM</td>
+                <td rowspan="2">keynote</td>
+                <td>Session A</td>
+                <td>Session B</td>
+                <td rowspan="3">Session C</td>
+            </tr>
+            <tr>
+                <td>Session D</td>
+                <td>Session E</td>
+            </tr>
+            <tr>
+                <td>10:30 AM - 11:20 AM</td>
+                <td colspan="2">Session F</td>
+            </tr>
+            <tr>
+                <td>12:00 PM - 1:00 PM</td>
+                <td colspan="4">Lunch Break</td>
+            </tr>
+            <tr>
+                <td rowspan="2">1:00 PM - 2:00 PM</td>
+                <td>Session G</td>
+                <td rowspan="2">Session H</td>
+                <td>Session I</td>
+                <td>Session J</td>
+            </tr>
+            <tr>
+                <td>Session K</td>
+                <td>Session L</td>
+                <td>Session M</td>
+            </tr>
+        </tbody>
+    </table>
+    
+</body>
+</html>
