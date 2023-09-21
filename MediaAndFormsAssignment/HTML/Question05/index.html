@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            font-family: cursive;
+            font-size: larger;
+        }
+    </style>
+    <title>Getting Started With HTML - Question-03</title>
+</head>
+<body>
+    <form action="#" style="margin-left:30px">
+        <h1>Sign Up Form</h1>
+        <p>Please fill in this form to ceate an account.</p>
+        <label for="fname">FirstName:</label> <br> 
+        <input type="text" id="fname" name="fname" placeholder="Enter your First Name" minlength="3" required> <br>
+        <label for="lname">LastName:</label> <br>
+        <input type="text" id="lname" name="lname" placeholder="Enter your Last Name" minlength="3" required><br>
+        <label for="email">Email:</label><br>
+        <input type="email" name="email" id="email" placeholder="Enter your Email" required><br>
+        <label for="psw">Password:</label> <br>
+        <input type="password" name="password" id="psw"  placeholder="Enter your password" required> <br>
+        <input type="password" name="confirmPassword" placeholder="Confirm your password"reqquired> <br>
+        <label for="age">Age:</label> <br>
+        <input type="number" name="age" id="age" min="0" max="150">
+        <p>Gender:</p>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female"><br> <br>
+        <input type="checkbox" name="AgreeCondition" id="AgreeCondition"> 
+        <label for="AgreeCondition">I agree to the terms and Conditions.</label> <br> <br>
+        <input type="submit" value="Submit">
+    </form>
+    <form action="#" style="margin-left:30px">
+        <h1>Sign In Form</h1>
+        <label for="email">Email:</label><br>
+        <input type="email" name="email" id="email" placeholder="Enter your Email" required><br>
+        <label for="psw">Password:</label> <br>
+        <input type="password" name="password" id="psw"  placeholder="Enter your password" required><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
