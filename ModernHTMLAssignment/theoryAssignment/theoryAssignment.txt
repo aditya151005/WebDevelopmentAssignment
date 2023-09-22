@@ -1,0 +1,188 @@
+
+1. List out the features of HTML5 ?
+
+Ans- The features of HTML5 are - 
+
+1.Intro of audio and video: -
+   Audio and Video tags are the two major addition to HTML5. 
+   It allows developers to embed a video or audio on their website.
+   HTML5 makes adding video super-fast and without having to build a video player.
+   This saves time for the developer and offers the client a superior and more affordable solution.
+
+   syntax-
+   <audio>
+    <source src="file_name" type="audio_file_type">
+   </audio>
+  or,
+   <audio src="file_name" type="audio_file_type">
+
+  <video>
+    <source src="file_name" type="video_file_type">
+  </video>
+  or,
+  <video src="file_name" type="video_file_type">
+
+  Ex-
+  <audio controls>
+    <source src="music.mp3" type="mp3">
+   </audio>
+  <video>
+    <source src="video.mp4" type="mp4">
+  </video>
+
+Attributes of Audio Tag - 
+
+autoplay-When the page is loaded. It specifies to play audio as soon as possible. 
+controls-It displays audio control. 
+loop-It will start the audio again when it is finished. 
+muted-When the page is loaded audio will be automatically muted.
+src-It specifies the URL of the audio file.  
+
+Attributes of Video Tag - 
+
+autoplay-When the page is loaded. It specifies to play video as soon as possible.
+controls-It displays video control such as play, pause, and stop.
+loop-It will start the video again when it is finished.
+muted-When the page is loaded video will be automatically muted.
+poster-It specifies an image will be shown until video play. 
+src-It specifies the URL of the video file.
+width-It specifies the width of the video area. The default value of width is 'auto'.
+height-It specifies the height of the video area. The default value of height is 'auto'.
+
+2.Vector Graphics -
+
+Vector Graphics can be used to draw graphics with various shapes and colors via scripting usually JS. 
+Vector graphics are scalable, easy to create and edit. 
+It also supports interactivity and animation. 
+Having a smaller file size makes transferring and loading graphics much faster on the web. That’s the reason why many people prefer to use vector graphics.
+
+Syntax -
+
+<svg id = "svgelem" height = "200" xmlns = "http://www.abc.org/2000/svg">
+	<circle id = "redcircle" cx = "50" cy = "50" r = "50" fill = "red" />
+</svg>
+
+It will create circle of radius 50  which is filled with red color.
+
+
+3.Header and Footer - 
+ Footer is placed at the end of the web page while Header is placed at the start of the web page. 
+ By using <header> and <footer> HTML5 elements, the browser will know what to load first and what to load later. 
+
+The header can contain-
+One or more heading elements (<h1> – <h6>)
+Logo or icon
+Authorship information
+
+Footer can contain-
+Authorship information
+Copyright information
+Contact information
+Back to top links
+
+syntax- 
+<header>SomeContent</header>
+<footer>SomeContent<footer>
+
+4.Figure and Figcaption:
+  HTML5 allows to use a <figure> element to mark up a photo in a document, and a <figcaption> element to define a caption for the photo.
+  This tag provides a container for content that is equivalent to a figure.
+
+Syntax- 
+<figure>
+<img src="filename" alt="text displayed When image is not available">
+<figcaption>Image Caption</figcaption>
+</figure>
+
+5.Nav tag - 
+  The <nav> tag defines a set of navigation links. 
+  It is used for the part of an internet site that links to different pages at the website.
+  Common examples of the nav elements are menus, tables, contents, and indexes.
+  This element makes it much easier to create a navigation menu, creates a neat horizontal menu of text links.
+
+Syntax - 
+<nav>
+  <a href="/html/">HTML</a>
+  <a href="/css/">CSS</a>
+  <a href="/js/">JavaScript</a>
+  <a href="/jquery/">jQuery</a>
+</nav>
+
+6.Progress tag:
+The progress tag is used to check the progress of a task during the execution.
+Progress tag can be used with the conjunction of JavaScript.
+syntax- 
+<progress id="file" value="32" max="100"> 32% </progress>
+
+7.Placeholder Attribute:
+The placeholder attribute specifies a short hint that describes the expected value of an input field.
+syntax - 
+<input type="text" name="fname" placeholder="First name">
+
+8.Email attribute:
+When the input type in the form set as email, then the browser gets the instruction from the code to write a valid format email. 
+The input email id is automatically validated to check the format of the email id is correct or not.
+<input type ="email" value="aditya@gmail.com"> 
+
+9.Storage:
+In the case of HTML, we can use the browser as the temporary storage whereas, in the case of HTML5, application cache, web SQL database, and web storage is used.
+
+2.  What are HTML Entities? List out 5 commonly used HTML entities.
+
+Ans- HTML entities are the reserved characters that are used in the HTML document. 
+They provide a wide range of characters, allowing us to add icons, geometric shapes, mathematical operators, and so on.
+
+5 commonly used HTML entities are - 
+
+    Description    Entity Name       Number Code 
+
+"	quotation mark	 &quot;	             &#34;
+'	apostrophe 	     &apos;	             &#39;
+&	ampersand	     &amp;	             &#38;
+<	less-than	     &lt;	             &#60;
+>	greater-than	 &gt;	             &#62;
+
+
+3. Define accessibility in the context of web development. Discuss why it's essential to create
+accessible websites and how it benefits different user groups.
+
+Ans-Web accessibility means that websites, tools, and technologies are designed and developed so that people with disabilities can use them.
+
+Why to create accessible websites- 
+
+Inclusivity for People with Disabilities -
+Accessible web development practices open up new possibilities for individuals with disabilities, allowing them to access information, make purchases, and connect with others online. It promotes independence and inclusion, breaking down barriers that hinder their participation in the digital world.
+Enhanced User Experience-
+An accessible website provides a better user experience for everyone. Well-structured content, clear navigation, and optimized multimedia contribute to a seamless browsing experience. By considering accessibility from the early stages of development, web designers can create user-friendly interfaces that cater to a wider audience.
+Legal and Ethical Considerations-
+Ensuring web accessibility is not only a moral obligation but also a legal requirement in many countries. Non-compliance with accessibility standards can lead to legal consequences and damage an organization's reputation. By prioritizing accessibility, businesses demonstrate their commitment to inclusivity and social responsibility.
+
+Web accessibility also benefits people without disabilities, for example:
+people using mobile phones, smart watches, smart TVs, and other devices with small screens, different input modes, etc.
+older people with changing abilities due to ageing.
+people with "temporary disabilities" such as a broken arm or lost glasses.
+people with "situational limitations" such as in bright sunlight or in an environment where they cannot listen to audio.
+people using a slow Internet connection, or who have limited or expensive bandwidth.
+There is also a strong business case for accessibility.
+Accessibility can enhance our brand, drive innovation, and extend our market reach.
+
+4. List any 3 ways which help us in improving the accessibility of HTML.
+
+Ans- 3 ways which help us in improving the accessibility of HTML are - 
+1.Structure and organize with headers-
+Headers are a great resource that, when used correctly, structure and organize content on a webpage. 
+This allows all users to easily navigate our web pages, and even improve our SEO score making it easier for us to generate more traffic to our site.
+2.Assign alt tags for images-
+Images on a webpage provide great value to users. Nonetheless, they can create barriers for users with limited or impaired vision. Therefore, assigning alt tags to images will provide a description of the images allowing users to understand the image through the use of a screen reader. Alt tags also contribute to a higher SEO score on Google.
+3.Use descriptive title for links-
+Using descriptive titles for links will make it easier for those who rely on screen readers to navigate our website to understand the purpose of the link and where they will be redirected.
+
+
+
+
+
+
+
+
+   
+
