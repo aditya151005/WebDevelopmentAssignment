@@ -1,0 +1,72 @@
+
+1. What is SEO and Explain the importance of SEO ?
+
+Ans- SEO stands for "search engine optimization."
+SEO means the process of improving our website to increase its visibility in Google, Microsoft Bing, and other search engines.
+Ultimately, the goal of search engine optimization is to help attract website visitors who will become customers, clients or an audience that keeps coming back.
+The importance of SEO are -
+1. Organic Search Is a Good Source of Website Traffic - 
+Organic search is often one of the highest sources of traffic for companies. And sometimes, SEO traffic is the primary source. 
+Focusing on organic search gives us the potential to attract even more traffic over time if we're able to increase our rankings.
+2. SEO Is Cost-Effective - 
+SEO is usually a more cost-effective way to drive traffic compared to channels like paid social.
+With SEO, we have to spend on our website and on content production. But we don’t have to buy an ad placement. 
+3. SEO Complements Paid Marketing Efforts -
+There's clearly a connection between PPC and SEO. 
+This could be because we simply occupy more real estate on Search Engine Results Page (SERP).
+4. SEO Builds Trust, Credibility, and Brand Recognition -
+Appearing in search results frequently creates the perception that our brand is a trusted and credible source of information.
+5.SEO Connects us with Customers Throughout the Buyer’s Journey -
+We can connect with prospective customers multiple times throughout their journeys as their searches evolve over time. so, Through better SEO we can connect with them.
+6. SEO Is a Scalable Growth Channel -
+SEO is one of the few truly scalably customer acquisition channels. 
+7.SEO Best Practices Help our Overall Marketing Performance -
+SEO best practices (such as great website UX, high-quality content, and aligning with search intent) will help improve our general marketing performance.
+If we just made a website with a great user experience and tons of helpful content, that would be beneficial even if we don’t get organic traffic from search results. 
+8. SEO Reflects Consumer Behavior Changes - 
+Optimizing for search means we'll stay on top of trends and consumer behavior changes.
+Because keyword research shows us rising and declining trends if we do it right. 
+9.SEO Results Are Quantifiable - 
+SEO results are easy to measure. So, we can gauge how we're performing and whether we need to make adjustments.
+10.SEO Holds our Competitive Edge -
+Investing in SEO helps us maintain our competitive edge. 
+Because SEO is a must if we want to keep up with and eventually surpass our competition in the search results. Which is often key for outcompeting them as a business.
+
+3. What are the benefits of meta tags ?
+
+Ans- Meta Tag(<meta>) is a HTML component that gives the metadata about a HTML document.
+    MetaData can be characterized as data that gives the data of different information or basic information about information.
+    The benefits of meta tags are - 
+    1. Specifying Important Keywords- 
+    The meta tag contains important keywords that are present on the web page and is utilized by the web browser to rank the page according to searches.
+    Search Engine Optimization is another term for this optimizing the SEO rank of the content.
+    2. Automatic Refresh- 
+    A specified time will be mentioned in the meta tag after which the webpage will be automatically refreshed.
+    3.Specifying Author of the Webpage-
+    MetaTag allows us to mention the name of the author of the webpage .
+    4. Providing a Description of the web page- 
+    A brief description of the web page can be included in the Meta tag, which will help the web page rank on the internet.
+    5.Meta Tags impact how our site appears in the Search Engine Results Page(SERPs) and how many people will be inclined to click through to our website. 
+    They will therefore impact our traffic and engagement rates, which can impact our SEO and rankings.
+    
+5. Define Favicon and give an illustrative example.
+
+Ans- A favicon is a small image displayed next to the page title in the browser tab.
+   Favicons are a great way to differentiate a site from other sites especially when visitors have many tabs open or are browsing through their browser history or bookmarks bar.
+   An HTML Favicon, also known as a favorite icon, is a graphical picture shown on the browser tab that indicates which website we are browsing. A favicon is typically 16 x 16 pixels in size and saved in the ICO file format.
+   The steps involved in adding a favicon to our webpage using HTML are -
+   1.A favicon is added to a web page's <head> element.
+   2.Add the <link> element after the <title> element in our index.html file. 
+   The <link> tag is most often used for adding a favicon to our website or linking to external style sheets.
+   3.syntax- 
+    <head>
+       <title>My Page Title</title>
+       <link
+        rel="icon"
+        type="image/jpg"
+        href="favicon_image_location"/>
+    </head>
+    4.Now open the HTML file in our preferred browser. The icon is shown on the website.
+    
+
+
