@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: cursive;
+}
+
+.container h3{
+   text-align: center;
+   padding: 20px;
+   font-size: 25px;
+}
+
+.container p{
+    margin-left: 230px;
+    width:1000px;
+    font-size:10px;
+    color: grey;
+ }
+
+ .AboutUsBg img{
+   display: block;
+   margin: 20px auto;
+   width:900px;
+ }

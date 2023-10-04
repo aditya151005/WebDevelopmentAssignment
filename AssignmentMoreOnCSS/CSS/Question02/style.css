@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   font-family: cursive;
+}
+
+.container{
+    height: 500px;
+    width: 500px;
+    margin: 50px auto;
+    border-radius: 20px;
+    background-color: #FDDA0D;
+}
+
+img{
+  display: block;
+  margin: 20px auto;
+  border-radius: 30px;
+  padding: 20px;
+}
+
+.container p{
+   margin: 2px 30px;
+   font-size: 19px;
+}
+
+span{
+    font-weight: bold;
+}

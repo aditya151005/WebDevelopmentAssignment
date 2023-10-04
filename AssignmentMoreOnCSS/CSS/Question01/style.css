@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width:100vw;
+    font-family: cursive;
+}
+
+
+.navList{
+    height: 70px;
+    background-color:#6495ED;
+}
+
+.navList li{
+    float: left;
+    padding: 20px;
+    height: 100%;
+    list-style-type: none; 
+    margin: 0 15px;
+}
+
+.navList li a{
+    color: white;
+    font-size: 20px;
+}
+
+/* on hover */
+
+.navList li a:hover{
+    color: rgb(158, 20, 20);
+}
