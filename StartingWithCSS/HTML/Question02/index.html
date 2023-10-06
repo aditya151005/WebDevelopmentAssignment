@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/StartingWithCSS/CSS/Question02/style.css" />
+    <title>SttartingWithCSS Question02</title>
+  </head>
+  <body>
+    <!-- In BEM naming convention -->
+    <!-- BEM uses block, element, and modifier names to construct CSS class names, separated by double underscores (__) and hyphens (--) -->
+    <!-- container class is a block -->
+    <!-- all paragraphs in div acts as element. -->
+    <!-- p has different variations . they are act as modifiers.-->
+    <!-- A div element of class container is created which contains various paragraphs.-->
+
+    <div class="container">
+      <p class="container__para1">This is Paragraph1</p>
+      <p class="container__para2">This is Paragraph2</p>
+      <p
+        class="container__para3 container__para3--specialFont container__para3--specialColor"
+      >
+        This is Paragraph3
+      </p>
+    </div>
+  </body>
+</html>

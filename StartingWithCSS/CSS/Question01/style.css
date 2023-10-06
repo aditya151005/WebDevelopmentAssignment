@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: cursive;
+    background-color: blue;
+}
+
+/* styling the box3 */
+
+.box3{
+    background-color:rgb(158, 14, 81);
+    font-size: 3rem;
+    text-align: center;
+    color: rgb(190, 208, 34);
+    margin: 20px 10px;
+ }
+
+
+ /*  For box2, both internal css and external css are applied but style is applied on the basis of internal css because priority of internal CSS is more than external CSS */ 
+
+ /* The priority of CSS - 
+  inline CSS > internal CSS > External CSS
+ */
+
+ /* styling the box2 */
+
+ .box2{
+    background-color:rgb(158, 14, 81);
+    font-size: 3rem;
+    text-align: center;
+    color: rgb(190, 208, 34);
+    margin: 20px 10px;
+ }
+
+
+
+
+

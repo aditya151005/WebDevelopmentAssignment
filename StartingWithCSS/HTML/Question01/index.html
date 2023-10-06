@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Adding the CSS file(External CSS) -->
+    <link rel="stylesheet" href="/StartingWithCSS/CSS/Question01/style.css" />
+    <!-- Internal CSS -->
+    <style>
+      /* styling box2 */
+      .box2 {
+        background-color: yellow;
+        font-size: 3rem;
+        text-align: center;
+        color: aqua;
+        margin: 20px 10px;
+      }
+
+      /*  For box1, both internal css and inline css are applied but style is applied on the basis of inline css because priority of inline CSS is more than internal CSS */
+
+      /* styling box1 */
+      .box1 {
+        background-color: yellow;
+        font-size: 3rem;
+        text-align: center;
+        color: aqua;
+      }
+    </style>
+
+    <!-- Creating the title of the page -->
+    <title>StartingWithCSS Question01</title>
+  </head>
+  <body>
+    <!-- Creating box named box1 and applying inline and internal CSS on it  -->
+    <div
+      class="box1"
+      style="
+        background-color: red;
+        font-size: 3rem;
+        text-align: center;
+        color: green;
+      "
+    >
+      <h2>This is box1 heading1</h2>
+      <p>This is box1 paragraph</p>
+    </div>
+
+    <!-- Creating box named box2 and applying internal and external CSS on it  -->
+    <div class="box2">
+      <h2>This is box2 heading1</h2>
+      <p>This is box2 paragraph</p>
+    </div>
+
+    <!-- Creating box named box3 and applying external CSS on it  -->
+    <div class="box3">
+      <h2>This is box3 heading1</h2>
+      <p>This is box3 paragraph</p>
+    </div>
+  </body>
+</html>

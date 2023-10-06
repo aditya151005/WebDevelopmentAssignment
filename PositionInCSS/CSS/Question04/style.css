@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: cursive;
+    margin:20px;
+}
+
+.circularImag img{
+   margin: 50px;
+   height: 500px;
+   width: 500px;
+   border-radius: 50%;
+}
