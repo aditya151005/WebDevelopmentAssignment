@@ -1,2 +1,169 @@
 
-1. Describe the main differences between the CSS Flexbox layout Model and the 
+1. Describe the main differences between the CSS Flexbox layout Model and CSS Grid layout 
+
+model. when would you choose to use one over the other?
+
+Ans - The CSS Flexbox offers a one-dimensional layout. 
+
+It is helpful in allocating and aligning the space among items in a container. 
+
+It works with all kinds of display devices and screen sizes.
+
+To get started we have to define a container element with display: flex.
+
+CSS Grid Layout, is a two-dimensional grid-based layout system with rows and columns, making it
+
+easier to design web pages without having to use floats and positioning. 
+
+Like tables, grid layout allow us to align elements into columns and rows.
+
+To get started we have to define a container element with display: grid, set the 
+
+column and row sizes with grid-template-columns and grid-template-rows, and then place its 
+
+child elements into the grid with grid-column and grid-row.
+
+Flexbox offers greater control over alignment and space distribution between items. 
+
+Being one-dimensional, Flexbox only deals with either columns or rows.
+
+Grid has two-dimension layout capabilities which allow flexible widths as a unit of length. 
+
+Flex Container is the parent element while Flex Item represents the children. 
+
+The Flex Container can ensure balanced representation by adjusting item dimensions. 
+
+This allows developers to design for fluctuating screen sizes.
+
+Grid supports both implicit and explicit content placement. 
+
+Its inbuilt automation allows it to automatically extend line items and copy values into the 
+
+new creation from the preceding item.
+
+CSS Grids helps us create the outer layout of the webpage. we can build complex as well 
+
+responsive design with this. This is why it is called ‘layout first’.
+
+We can choose flex and grid for the different usecases - 
+
+Flexbox mostly helps align content & move blocks.
+
+CSS grids are for 2D layouts. It works with both rows and columns.
+
+Flexbox works better in one dimension only (either rows OR columns).
+
+It will be more time-saving and helpful if we use both at the same time.
+
+2. Explain the following key properties of Flexbox layout model.
+
+Ans- 1. justify-content - This CSS property is used to align the items of the flexible box 
+
+container when the items do not use all available space on the main-axis (horizontally).
+
+It defines how the browser distributes the space around and between the content items.
+
+This CSS property can't be used to describe containers or items along the vertical axis.
+
+To align the items vertically, we have to use the align-items property.
+
+syntax -
+
+justify-content: center | flex-start | flex-end | space-around | space-evenly | space-between | initial | inherit; 
+
+Different properties values-
+
+flex-start	Default value. Items are positioned at the beginning of the container.	
+
+flex-end	Items are positioned at the end of the container.
+
+center	Items are positioned in the center of the container.
+
+space-between	Items will have space between them.
+
+space-around	Items will have space before, between, and after them.
+
+space-evenly	Items will have equal space around them.
+
+initial	        Sets this property to its default value.
+
+inherit	        Inherits this property from its parent element.
+
+2. align items -  The align-items property is used to set the alignment of items inside the 
+
+flexible container or in the given window. It aligns the Flex Items at the cross axis.
+
+Syntax:
+
+align-items: stretch|center|flex-start|flex-end|baseline|initial|inherit;
+
+Different properties values -
+
+stretch: Items are stretched to fit the container and it is the default value.
+
+center: The position of Items should be center of the container vertically.
+
+flex-start: Items will be positioned to the beginning of the container.
+
+flex-end: Items will be positioned to the end of the container.
+
+baseline: Items will be positioned to the baseline of the container.
+
+initial: Sets this value/property to its default value.
+
+inherit: Inherit the property from the parent element. 
+
+
+3.gap - Use the CSS Flexbox gap property to specify the size of the gap between the rows and 
+
+the columns in a flexbox layout.
+
+syntax - 
+
+gap: row_gap_size column_gap_size;
+
+4. flex-direction - The flex-direction property specifies the direction of the flexible items.
+
+If the element is not a flexible item, the flex-direction property has no effect.
+
+syntax - 
+
+flex-direction: row|row-reverse|column|column-reverse|initial|inherit;
+
+different properties values - 
+
+row	              Default value. The flexible items are displayed horizontally, as a row.	
+
+row-reverse	      Same as row, but in reverse order.
+
+column	          The flexible items are displayed vertically, as a column.
+
+column-reverse	  Same as column, but in reverse order.
+
+initial	          Sets this property to its default value.
+
+inherit	          Inherits this property from its parent element. 	
+
+5. flex-wrap - The flex-wrap property specifies whether the flexible items should wrap or not.
+
+If the elements are not flexible items, the flex-wrap property has no effect.
+
+It defines whether the flex items are forced in a single line or can be flowed 
+
+into multiple lines.
+
+syntax - 
+
+flex-wrap: nowrap|wrap|wrap-reverse|initial|inherit;
+
+different properties values - 
+
+nowrap	       Default value. Specifies that the flexible items will not wrap.
+
+wrap	       Specifies that the flexible items will wrap if necessary.
+
+wrap-reverse	Specifies that the flexible items will wrap, if necessary, in reverse order.
+
+initial	        Sets this property to its default value. 
+
+inherit	       Inherits this property from its parent element.

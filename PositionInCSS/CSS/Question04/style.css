@@ -6,12 +6,54 @@
 
 body{
     font-family: cursive;
-    margin:20px;
 }
 
-.circularImag img{
-   margin: 50px;
-   height: 500px;
-   width: 500px;
-   border-radius: 50%;
+.header{
+    background-color: rgb(10, 10, 10);
+    color: white;
+    padding: 20px;
+    position: sticky;
+    top:0px;
+}
+
+
+.header h3{
+    float: left;
+    margin-right:500px;
+    margin-left: 20px;
+    padding: 10px 20px;
+    font-size: 25px;
+}
+
+ul li{
+    float: left;
+    padding: 10px 20px;
+}
+
+button{
+    padding: 15px 20px;
+    margin-left: 20px;
+    border:1px solid goldenrod;
+    color:goldenrod;
+    background-color: black;
+    border-radius: 10px;
+}
+
+li{
+    list-style-type: none;
+}
+
+.home{
+    color: white;
+}
+
+li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: grey;
+}
+
+
+section{
+    margin:10px;
 }

@@ -1,0 +1,184 @@
+
+2. Explain the difference between absolute and relative positioning ?
+
+Ans- Elements with position: absolute are positioned relative to their parent elements. 
+
+  In this case, the element is removed from the normal document flow. 
+
+ The other elements will behave as if that element is not in the document. 
+
+ No space is created for the element in the page layout. 
+
+ The values of left, top, bottom and right determine the final position of the element.
+
+ One thing to note is that an element with position: absolute is positioned relative to its closest positioned ancestor. 
+
+That means that the parent element has to have a position value other than position: static.
+
+If the closest parent element is not positioned, it is positioned relative to the next parent element that is positioned. 
+
+If there's no positioned ancestor element, it is positioned relative to the <html> element.
+
+Ex - HTML 
+
+   <html>
+	<body>
+        <div class="parent-element">
+            <div class="sibling-element">
+                I'm the other sibling element.
+            </div>
+            
+            <div class="main-element">
+                All eyes on me. I am the main element.
+            </div>
+            
+            <div class="sibling-element">
+                I'm the other sibling element.
+            </div>
+        </div>
+    </body>
+<html>
+
+CSS- 
+
+.sibling-element {
+	background: #f2f2f2;
+	padding: 10px;
+} 
+
+.main-element {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: yellow;
+    padding: 10px;
+}
+
+.parent-element {
+    position: relative;
+    height: 100px;
+    padding: 10px;
+    background-color: #81adc8;
+}
+
+Notice that no space will create in the document for the positioned element. 
+
+The element is now positioned relative to the parent element. 
+
+Relative positioning -
+
+   Elements with position: relative remain in the normal flow of the document. 
+
+   But, unlike static elements, the left, right, top, bottom and z-index properties affect the position of the element. 
+  
+  Elements get shifted from their original position in the document creating vacant space and 
+  
+  other elements may adjust themselves according to the vacant space left by the element.
+
+
+Ex- HTML
+
+<html>
+	<body>
+        <div class="parent-element">
+            <div class="sibling-element">
+                I'm the other sibling element.
+            </div>
+            
+            <div class="main-element">
+                All eyes on me. I am the main element.
+            </div>
+            
+            <div class="sibling-element">
+                I'm the other sibling element.
+            </div>
+        </div>
+    </body>
+<html>
+
+CSS - 
+
+.sibling-element {
+	background: #f2f2f2;
+	padding: 10px;
+}
+
+.main-element {
+    position: relative;
+    left: 10px;
+    bottom: 10px;
+    background-color: yellow;
+    padding: 10px;
+}
+
+Notice that the left and bottom properties now affect the position of the element.
+
+Also notice that the element remains in the normal flow of the document and the offset is 
+
+applied relative to itself. 
+
+5. Explain z-index with the code example ?
+
+Ans - Z Index (z-index) is a CSS property that defines the order of overlapping HTML elements.
+
+ Elements with a higher index will be placed on top of elements with a lower index.
+
+The z-index property specifies the stack order of an element.
+
+An element with greater stack order is always in front of an element with a lower stack order.
+
+z-index only works on positioned elements (position: absolute, position: relative, position: 
+
+fixed, or position: sticky) and flex items (elements that are direct children of display:flex 
+
+elements).
+
+If two positioned elements overlap without a z-index specified, the element positioned last in the HTML code will be shown on top. 
+
+syntax - 
+
+z-index: auto|number|initial|inherit;
+
+auto-Sets the stack order equal to its parents. This is default.
+
+number-Sets the stack order of the element. Negative numbers are allowed.
+
+initial-Sets this property to its default value.
+
+inherit-Inherits this property from its parent element.
+
+Ex - 
+
+<!DOCTYPE html> 
+<html> 
+  
+<head> 
+    <title> 
+         z-index Property 
+    </title> 
+    <style> 
+        img { 
+            position: absolute; 
+            left: 0px; 
+            top: 0px; 
+            z-index: -1; 
+        } 
+          
+        h1, 
+        p { 
+            background-color: green; 
+        } 
+    </style> 
+</head>  
+<body> 
+    <h1>Aditya's Blog:</h1> 
+    <img src= 
+"background.png" 
+         width="400" height="150"> 
+    <p>This example shows the use of z-index property.</p> 
+</body> 
+</html> 
+
+Note -  background style will be shown on the front side as compared to image because
+
+z-index of image is less than background in the example. 
